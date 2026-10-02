@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CampusConnect</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🌿CampusConnect</h1>
+
+        <p class="subtitle">✨ Student Event Registration 📋</p>
+
+        <form id="registrationForm">
+
+            <!-- Full Name -->
+            <div class="form-group">
+
+                <label for="name">Full Name</label>
+
+                <input type="text" id="name" placeholder="Enter your full name">
+
+                <small id="nameError"></small>
+
+            </div>
+
+
+            <!-- Email -->
+            <div class="form-group">
+
+                <label for="email">Email Address</label>
+
+                <input type="text" id="email" placeholder="Enter your email">
+
+                <small id="emailError"></small>
+
+            </div>
+
+
+            <!-- Mobile -->
+            <div class="form-group">
+
+                <label for="mobile">Mobile Number</label>
+
+                <input type="text" id="mobile" placeholder="Enter 10-digit mobile number">
+
+                <small id="mobileError"></small>
+
+            </div>
+
+
+            <!-- College -->
+            <div class="form-group">
+
+                <label for="college">College Name</label>
+
+                <input type="text" id="college" placeholder="Enter your college name">
+
+                <small id="collegeError"></small>
+
+            </div>
+
+
+            <!-- Course -->
+            <div class="form-group">
+
+                <label for="course">Course</label>
+
+                <select id="course">
+
+                    <option value="">Select your course</option>
+
+                    <option value="computer">
+                        Computer Engineering
+                    </option>
+
+                    <option value="it">
+                        Information Technology
+                    </option>
+
+                    <option value="entc">
+                        Electronics & Telecommunication
+                    </option>
+
+                    <option value="mechanical">
+                        Mechanical Engineering
+                    </option>
+
+                    <option value="civil">
+                        Civil Engineering
+                    </option>
+
+                </select>
+
+                <small id="courseError"></small>
+
+            </div>
+
+
+            <!-- Year -->
+            <div class="form-group">
+
+                <label for="year">Year of Study</label>
+
+                <select id="year">
+
+                    <option value="">Select your year</option>
+
+                    <option value="first">
+                        First Year
+                    </option>
+
+                    <option value="second">
+                        Second Year
+                    </option>
+
+                    <option value="third">
+                        Third Year
+                    </option>
+
+                    <option value="fourth">
+                        Fourth Year
+                    </option>
+
+                </select>
+
+                <small id="yearError"></small>
+
+            </div>
+
+
+            <!-- Password -->
+            <div class="form-group">
+                <label for="password">Password</label>
+
+                <div class="password-box">
+                    <input type="password" id="password" placeholder="Enter your password">
+                    <button type="button" class="toggle-password" id="togglePassword">👁</button>
+                </div>
+
+                <small id="passwordError"></small>
+            </div>
+
+
+            <!-- Confirm Password -->
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password</label>
+
+                <div class="password-box">
+                    <input type="password" id="confirmPassword" placeholder="Confirm your password">
+                    <button type="button" class="toggle-password" id="toggleConfirmPassword">👁</button>
+                </div>
+
+                <small id="confirmPasswordError"></small>
+            </div>
+
+
+            <!-- Terms -->
+            <div class="terms">
+
+                <input type="checkbox" id="terms">
+
+                <label for="terms">
+                    I agree to the Terms & Conditions
+                </label>
+
+            </div>
+
+            <small id="termsError"></small>
+
+
+            <!-- Buttons -->
+            <button type="submit">
+                Register
+            </button>
+
+            <button type="reset" class="reset-btn">
+                Reset
+            </button>
+
+
+            <!-- Success Message -->
+            <p id="successMessage"></p>
+            <p class="footer-text"> 🌿 CampusConnect • Student Event Registration</p>
+
+        </form>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
