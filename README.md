@@ -1,44 +1,43 @@
-# CampusConnect - Student Registration Form
+# 🌿 CampusConnect
 
-CampusConnect is a simple student registration form developed using HTML, CSS, and JavaScript.
+### Student Event Registration Form
 
-## Features
+CampusConnect is a simple and responsive student event registration form developed using HTML, CSS, and JavaScript.
+
+The project focuses on creating a clean registration form with basic client-side form validation.
+
+## ✨ Features
 
 - Student registration form
 - Full name validation
 - Email validation
 - Mobile number validation
 - College name validation
-- Course and year selection
+- Course selection
+- Year selection
 - Password validation
 - Confirm password validation
-- Show/hide password
-- Terms and conditions checkbox
-- Success message after valid registration
+- Show/Hide password
+- Terms & Conditions checkbox
+- Registration success message
+- Reset button
 - Responsive design
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - HTML
 - CSS
 - JavaScript
 
-## Project Structure
+## 📁 Project Structure
 
-Form-Validation-System/
+```text
+CampusConnect/
 │
 ├── index.html
 ├── style.css
 ├── script.js
-└── README.md
-
-## How to Run
-
-1. Download or clone the project.
-2. Open the project folder in VS Code.
-3. Open `index.html` using Live Server.
-4. Fill in the registration form and test the validation.
-
-## Purpose
+├── README.md
+└── .gitignore
 
 This project was created to practice HTML forms, CSS styling, and JavaScript form validation.
