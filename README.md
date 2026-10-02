@@ -41,3 +41,7 @@ CampusConnect/
 └── .gitignore
 
 This project was created to practice HTML forms, CSS styling, and JavaScript form validation.
+
+## 📸 Project Screenshot
+
+![CampusConnect Screenshot](CampusConnect-Screenshot.png.jpeg)
